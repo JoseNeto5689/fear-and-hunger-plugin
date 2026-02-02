@@ -3,7 +3,10 @@ package com.tekpix.fear_and_hunger;
 import com.hypixel.hytale.server.core.plugin.JavaPlugin;
 import com.hypixel.hytale.server.core.plugin.JavaPluginInit;
 import com.hypixel.hytale.logger.HytaleLogger;
+import com.tekpix.fear_and_hunger.commands.FungerCommand;
 import com.tekpix.fear_and_hunger.components.SoulStoneComponent;
+import com.tekpix.fear_and_hunger.events.GiveSoulStoneEvent;
+import com.tekpix.fear_and_hunger.handlers.GiveSoulStoneHandler;
 import com.tekpix.fear_and_hunger.systems.PlayerJoinSystem;
 
 import javax.annotation.Nonnull;
@@ -41,9 +44,14 @@ public class FearAndHungerPlugin extends JavaPlugin {
                 SoulStoneComponent.CODEC
         );
 
+
+        getCommandRegistry().registerCommand(new FungerCommand());
+
         SoulStoneComponent.setComponentType(fungerType);
 
         getEntityStoreRegistry().registerSystem(new PlayerJoinSystem());
+
+        getEventRegistry().register(GiveSoulStoneEvent.class, new GiveSoulStoneHandler());
 
         LOGGER.at(Level.INFO).log("[FearAndHungerPlugin] Setup complete!");
     }

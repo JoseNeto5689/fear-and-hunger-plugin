@@ -112,7 +112,7 @@ libs/HytaleServer.jar
 server/mods/
 server/logs/
 server/world/
-server/
+server/Assets.zip
 
 # -------------------------------
 # Optional: IDE Run Outputs
