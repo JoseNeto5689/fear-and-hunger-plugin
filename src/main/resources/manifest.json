@@ -1,0 +1,9 @@
+{
+  "Group": "com.tekpix",
+  "Name": "FearAndHunger",
+  "Version": "1.0.0",
+  "Description": "A Hytale server mod inspiered by fear and hunger game.",
+  "Authors": [{"Name": "tekpix"}],
+  "Main": "com.tekpix.fear_and_hunger.FearAndHungerPlugin",
+  "LoadOrder": "POSTWORLD"
+}
