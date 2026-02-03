@@ -1,0 +1,18 @@
+{
+  "Assets": [
+    {
+      "Path": "Server/Item/Items/Hexen_Table.json",
+      "State": "Changed",
+      "LastModificationTimestamp": "2026-02-03T12:19:28.680252793Z",
+      "LastModificationPlayerUuid": "5ac888bf-8c78-4a6c-9fc4-fc01061e990b",
+      "LastModificationUsername": "TekPix"
+    },
+    {
+      "Path": "Common/Icons/ItemsGenerated/Hexen_Table.png",
+      "State": "New",
+      "LastModificationTimestamp": "2026-02-03T12:19:28.649550782Z",
+      "LastModificationPlayerUuid": "5ac888bf-8c78-4a6c-9fc4-fc01061e990b",
+      "LastModificationUsername": "TekPix"
+    }
+  ]
+}

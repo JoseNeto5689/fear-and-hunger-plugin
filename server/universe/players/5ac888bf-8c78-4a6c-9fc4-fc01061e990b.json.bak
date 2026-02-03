@@ -20,13 +20,13 @@
     "UIComponentList": {},
     "Transform": {
       "Position": {
-        "X": 558.2039794921875,
-        "Y": 120.0,
-        "Z": 262.2296142578125
+        "X": 487.532470703125,
+        "Y": 118.77361297607422,
+        "Z": 349.8867492675781
       },
       "Rotation": {
         "Pitch": 0.0,
-        "Yaw": -0.10536221414804459,
+        "Yaw": -2.8944790363311768,
         "Roll": 0.0
       }
     },
@@ -35,13 +35,13 @@
     },
     "Velocity": {
       "Velocity": {
-        "X": 0.0,
-        "Y": 0.0,
-        "Z": 0.0
+        "X": 0.7498163526342346,
+        "Y": 2.7012614755156403,
+        "Z": 1.4501942644354429
       }
     },
     "SoulStoneQuantity": {
-      "TotalSoulStones": 1
+      "TotalSoulStones": 3
     },
     "Player": {
       "Version": 5,
@@ -64,7 +64,64 @@
         "HotBar": {
           "Id": "Simple",
           "Capacity": 9,
-          "Items": {}
+          "Items": {
+            "0": {
+              "Id": "Hexen_Table",
+              "Quantity": 4,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "2": {
+              "Id": "Rubble_Stone",
+              "Quantity": 2,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "6": {
+              "Id": "Ingredient_Hide_Heavy",
+              "Quantity": 1,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "4": {
+              "Id": "Weapon_Longsword_Flame",
+              "Quantity": 1,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "1": {
+              "Id": "Rock_Stone",
+              "Quantity": 1,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "3": {
+              "Id": "Soil_Dirt",
+              "Quantity": 1,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "7": {
+              "Id": "Food_Wildmeat_Raw",
+              "Quantity": 3,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "5": {
+              "Id": "Ingredient_Stick",
+              "Quantity": 3,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            }
+          }
         },
         "Utility": {
           "Id": "Simple",
@@ -74,7 +131,7 @@
         "Backpack": {
           "Id": "Empty"
         },
-        "ActiveHotbarSlot": 0,
+        "ActiveHotbarSlot": 8,
         "Tool": {
           "Id": "Simple",
           "Capacity": 23,
@@ -134,11 +191,11 @@
         "PerWorldData": {
           "default": {
             "LastPosition": {
-              "X": 558.2039794921875,
-              "Y": 120.0,
-              "Z": 262.2296142578125,
-              "Pitch": -0.197749525308609,
-              "Yaw": -0.4973622262477875,
+              "X": 483.8961486816406,
+              "Y": 117.0,
+              "Z": 333.22027587890625,
+              "Pitch": -0.17987117171287537,
+              "Yaw": -2.6652276515960693,
               "Roll": 0.0
             },
             "LastMovementStates": {
@@ -149,7 +206,8 @@
           }
         },
         "DiscoveredZones": [
-          "Zone1_Spawn"
+          "Zone1_Spawn",
+          "Zone1_Tier1"
         ],
         "DiscoveredInstances": [],
         "ReputationData": {},
@@ -158,7 +216,47 @@
       "BlockPlacementOverride": false,
       "HotbarManager": {
         "SavedHotbars": [
-          null,
+          {
+            "Id": "Simple",
+            "Capacity": 9,
+            "Items": {
+              "0": {
+                "Id": "Hexen_Table",
+                "Quantity": 4,
+                "Durability": 0.0,
+                "MaxDurability": 0.0,
+                "OverrideDroppedItemAnimation": false
+              },
+              "2": {
+                "Id": "Rubble_Stone",
+                "Quantity": 2,
+                "Durability": 0.0,
+                "MaxDurability": 0.0,
+                "OverrideDroppedItemAnimation": false
+              },
+              "4": {
+                "Id": "Weapon_Longsword_Flame",
+                "Quantity": 1,
+                "Durability": 0.0,
+                "MaxDurability": 0.0,
+                "OverrideDroppedItemAnimation": false
+              },
+              "1": {
+                "Id": "Rock_Stone",
+                "Quantity": 1,
+                "Durability": 0.0,
+                "MaxDurability": 0.0,
+                "OverrideDroppedItemAnimation": false
+              },
+              "3": {
+                "Id": "Soil_Dirt",
+                "Quantity": 1,
+                "Durability": 0.0,
+                "MaxDurability": 0.0,
+                "OverrideDroppedItemAnimation": false
+              }
+            }
+          },
           null,
           null,
           null,
@@ -199,7 +297,7 @@
         },
         "Health": {
           "Id": "Health",
-          "Value": 100.0
+          "Value": 68.0
         },
         "GlidingActive": {
           "Id": "GlidingActive",
@@ -245,8 +343,8 @@
     },
     "HeadRotation": {
       "Rotation": {
-        "Pitch": 0.37450048327445984,
-        "Yaw": 0.2568877339363098,
+        "Pitch": -0.1833711862564087,
+        "Yaw": -2.8944787979125977,
         "Roll": 0.0
       }
     }

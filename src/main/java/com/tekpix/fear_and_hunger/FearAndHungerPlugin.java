@@ -8,6 +8,7 @@ import com.tekpix.fear_and_hunger.components.SoulStoneComponent;
 import com.tekpix.fear_and_hunger.events.GiveSoulStoneEvent;
 import com.tekpix.fear_and_hunger.handlers.GiveSoulStoneHandler;
 import com.tekpix.fear_and_hunger.systems.PlayerJoinSystem;
+import com.tekpix.fear_and_hunger.systems.SoulStoneGainSystem;
 
 import javax.annotation.Nonnull;
 import java.util.logging.Level;
@@ -36,8 +37,6 @@ public class FearAndHungerPlugin extends JavaPlugin {
     protected void setup() {
         LOGGER.at(Level.INFO).log("[FearAndHungerPlugin] Setting up...");
 
-        // TODO: Register commands and listeners here
-
         var fungerType = getEntityStoreRegistry().registerComponent(
                 SoulStoneComponent.class,
                 "SoulStoneQuantity",
@@ -50,6 +49,7 @@ public class FearAndHungerPlugin extends JavaPlugin {
         SoulStoneComponent.setComponentType(fungerType);
 
         getEntityStoreRegistry().registerSystem(new PlayerJoinSystem());
+        getEntityStoreRegistry().registerSystem(new SoulStoneGainSystem());
 
         getEventRegistry().register(GiveSoulStoneEvent.class, new GiveSoulStoneHandler());
 
