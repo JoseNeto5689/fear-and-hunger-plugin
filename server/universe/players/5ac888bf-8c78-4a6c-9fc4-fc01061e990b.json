@@ -20,13 +20,13 @@
     "UIComponentList": {},
     "Transform": {
       "Position": {
-        "X": 500.36920166015625,
-        "Y": 121.0,
-        "Z": 372.8557434082031
+        "X": 744.15966796875,
+        "Y": 117.0,
+        "Z": 346.6114501953125
       },
       "Rotation": {
         "Pitch": 0.0,
-        "Yaw": -2.4756250381469727,
+        "Yaw": -13.555562973022461,
         "Roll": 0.0
       }
     },
@@ -41,7 +41,7 @@
       }
     },
     "SoulStoneQuantity": {
-      "TotalSoulStones": 3
+      "TotalSoulStones": 4
     },
     "Player": {
       "Version": 5,
@@ -54,7 +54,43 @@
         "Storage": {
           "Id": "Simple",
           "Capacity": 36,
-          "Items": {}
+          "Items": {
+            "0": {
+              "Id": "Ingredient_Hide_Medium",
+              "Quantity": 13,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "2": {
+              "Id": "Ingredient_Hide_Light",
+              "Quantity": 2,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "4": {
+              "Id": "Ingredient_Void_Essence",
+              "Quantity": 2,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "1": {
+              "Id": "Food_Chicken_Raw",
+              "Quantity": 1,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            },
+            "3": {
+              "Id": "Food_Beef_Raw",
+              "Quantity": 13,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            }
+          }
         },
         "Armor": {
           "Id": "Simple",
@@ -81,7 +117,7 @@
             },
             "6": {
               "Id": "Ingredient_Hide_Heavy",
-              "Quantity": 1,
+              "Quantity": 4,
               "Durability": 0.0,
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
@@ -116,7 +152,7 @@
             },
             "7": {
               "Id": "Food_Wildmeat_Raw",
-              "Quantity": 3,
+              "Quantity": 12,
               "Durability": 0.0,
               "MaxDurability": 0.0,
               "OverrideDroppedItemAnimation": false
@@ -138,7 +174,7 @@
         "Backpack": {
           "Id": "Empty"
         },
-        "ActiveHotbarSlot": 0,
+        "ActiveHotbarSlot": 2,
         "Tool": {
           "Id": "Simple",
           "Capacity": 23,
@@ -198,11 +234,11 @@
         "PerWorldData": {
           "default": {
             "LastPosition": {
-              "X": 500.36920166015625,
-              "Y": 121.0,
-              "Z": 372.8557434082031,
-              "Pitch": -0.5228713750839233,
-              "Yaw": -2.626729726791382,
+              "X": 744.15966796875,
+              "Y": 117.0,
+              "Z": 346.6114501953125,
+              "Pitch": -0.19579504430294037,
+              "Yaw": -0.9871314764022827,
               "Roll": 0.0
             },
             "LastMovementStates": {
@@ -213,6 +249,7 @@
           }
         },
         "DiscoveredZones": [
+          "Zone1_Tier2",
           "Zone1_Spawn",
           "Zone1_Tier1"
         ],
@@ -241,8 +278,22 @@
                 "MaxDurability": 0.0,
                 "OverrideDroppedItemAnimation": false
               },
+              "6": {
+                "Id": "Ingredient_Hide_Heavy",
+                "Quantity": 4,
+                "Durability": 0.0,
+                "MaxDurability": 0.0,
+                "OverrideDroppedItemAnimation": false
+              },
               "4": {
                 "Id": "Weapon_Longsword_Flame",
+                "Quantity": 1,
+                "Durability": 0.0,
+                "MaxDurability": 0.0,
+                "OverrideDroppedItemAnimation": false
+              },
+              "8": {
+                "Id": "Ingredient_Fibre",
                 "Quantity": 1,
                 "Durability": 0.0,
                 "MaxDurability": 0.0,
@@ -261,6 +312,20 @@
                 "Durability": 0.0,
                 "MaxDurability": 0.0,
                 "OverrideDroppedItemAnimation": false
+              },
+              "7": {
+                "Id": "Food_Wildmeat_Raw",
+                "Quantity": 12,
+                "Durability": 0.0,
+                "MaxDurability": 0.0,
+                "OverrideDroppedItemAnimation": false
+              },
+              "5": {
+                "Id": "Ingredient_Stick",
+                "Quantity": 3,
+                "Durability": 0.0,
+                "MaxDurability": 0.0,
+                "OverrideDroppedItemAnimation": false
               }
             }
           },
@@ -276,8 +341,9 @@
         ],
         "CurrentHotbar": 0
       },
-      "GameMode": "Adventure"
+      "GameMode": "Creative"
     },
+    "Invulnerable": {},
     "HitboxCollision": {
       "HitboxCollisionConfigIndex": 1
     },
@@ -304,7 +370,7 @@
         },
         "Health": {
           "Id": "Health",
-          "Value": 68.0
+          "Value": 100.0
         },
         "GlidingActive": {
           "Id": "GlidingActive",
@@ -350,8 +416,8 @@
     },
     "HeadRotation": {
       "Rotation": {
-        "Pitch": -0.5228713750839233,
-        "Yaw": -2.626729726791382,
+        "Pitch": -0.19579504430294037,
+        "Yaw": -0.9871314764022827,
         "Roll": 0.0
       }
     }

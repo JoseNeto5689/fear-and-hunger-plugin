@@ -8,5 +8,6 @@ public class FungerCommand extends AbstractCommandCollection {
     public FungerCommand() {
         super("funger", "Fear and Hunger commands utils");
         addSubCommand(new FungerGiveSoulStoneCommand());
+        addSubCommand(new FungerProtoHurtingCommand());
     }
 }
